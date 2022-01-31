@@ -1,0 +1,21 @@
+﻿program consoleapp task2.3
+
+read a = 750
+read a1
+
+IF a>=100&&a<1000 THEN
+
+DISPLAY a
+DISPLAY a1
+
+ELSE
+
+DISPLAY "3reqemli deyil"
+
+
+ENDIF
+
+
+
+
+endprogram

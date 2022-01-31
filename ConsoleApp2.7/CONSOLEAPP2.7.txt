@@ -1,0 +1,35 @@
+﻿PROGRAM     consoleapp 2.7
+
+
+READ            int a = 5220
+READ            int b = 8848
+READ            int c = a + b
+READ            int x
+READ            double y
+READ            int qaliq
+
+WHILE C>0
+
+INIT            c = c * 10 + 5
+INIT            x= (c % 100000)
+INIT            qaliq = (c - x)
+INIT            qaliq = qaliq * 100000+x
+INIT            y = qaliq * 0.05
+
+
+DISPLAY     qaliq
+DISPLAY     y
+
+
+
+return;
+
+ENDWHILE
+
+
+
+
+
+
+
+
